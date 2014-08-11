@@ -547,46 +547,8 @@ body {
     -ms-transform: rotate( 5deg);
     -o-transform: rotate( 5deg);
     transform: rotate( 5deg);
-
-    -webkit-animation: back-wobble 3s;
-    -moz-animation: back-wobble 3s;
-    -ms-animation: back-wobble 3s;
-    -o-animation: back-wobble 3s;
-    animation: back-wobble 3s;
 }
 
-@-webkit-keyframes front-wobble {
-    0%, 40%, 80% {
-        -webkit-transform:rotate(-4deg);
-    }
-    20%, 60% {
-        -webkit-transform:rotate(4deg);
-    }
-}
-@-moz-keyframes front-wobble {
-    0%, 40%, 80% {
-        -moz-transform:rotate(-4deg);
-    }
-    20%, 60% {
-        -moz-transform:rotate(4deg);
-    }
-}
-@-o-keyframes front-wobble {
-    0%, 40%, 80% {
-        -o-transform:rotate(-4deg);
-    }
-    20%, 60% {
-        -o-transform:rotate(4deg);
-    }
-}
-@keyframes front-wobble {
-    0%, 40%, 80% {
-        transform:rotate(-4deg);
-    }
-    20%, 60% {
-        transform:rotate(4deg);
-    }
-}
 @-webkit-keyframes rtwo-move {
     from{
         left:25px;
@@ -677,46 +639,22 @@ body {
 }
 
 @-webkit-keyframes hover {
-    from {
-        top: 240px;
-    }
     50% {
-        top:244px;
-    }
-    to {
-        top: 240px;
+        -webkit-transform:translateY(4px);
     }
 }
 @-moz-keyframes hover {
-    from {
-        top: 240px;
-    }
     50% {
-        top:244px;
-    }
-    to {
-        top: 240px;
+        -moz-transform:translateY(4px);
     }
 }
 @-o-keyframes hover {
-    from {
-        top: 240px;
-    }
     50% {
-        top:244px;
-    }
-    to {
-        top: 240px;
+        -o-transform:translateY(4px);
     }
 }
 keyframes hover {
-    from {
-        top: 240px;
-    }
     50% {
-        top:244px;
-    }
-    to {
-        top: 240px;
+        transform:translateY(4px);
     }
 }
